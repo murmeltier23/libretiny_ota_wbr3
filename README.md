@@ -24,6 +24,7 @@ Der klägliche Versuch eines Noobs das WBR3 Board zu libretiny hinzuzufügen.
 Nicht Nutzen. Ich kenn mi net aus!
 
 Ich versuche die OTA funktion von:
+https://github.com/prokoma/libretiny#55aacc8
 
 und die WBR3 chips von hier: 
 https://github.com/libretiny-eu/libretiny#feature/realtek-update
