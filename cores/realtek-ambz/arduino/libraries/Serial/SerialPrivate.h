@@ -8,7 +8,7 @@
 typedef struct {
 	UART_TypeDef *uart;
 	IRQn irq;
-	SerialRingBuffer buf;
+	RingBuffer buf;
 } SerialData;
 
 #define DATA   ((SerialData *)data)

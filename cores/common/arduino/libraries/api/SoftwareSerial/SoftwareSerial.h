@@ -27,7 +27,7 @@ typedef enum {
 
 typedef struct {
 	SoftState state;
-	SerialRingBuffer *buf;
+	RingBuffer *buf;
 	uint8_t byte;
 	pin_size_t pin;
 	void *param;

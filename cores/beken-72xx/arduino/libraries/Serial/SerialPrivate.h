@@ -6,9 +6,9 @@
 #include <sdk_private.h>
 
 typedef struct {
-	SerialRingBuffer buf;
+	RingBuffer buf;
 } SerialData;
 
 #define DATA ((SerialData *)data)
 #define BUF	 (DATA->buf)
-#define pBUF ((SerialRingBuffer *)param)
+#define pBUF ((RingBuffer *)param)
