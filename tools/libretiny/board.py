@@ -1,7 +1,8 @@
 # Copyright (c) Kuba Szczodrzyński 2022-07-29.
 
-from genericpath import isfile
 from typing import Union
+
+from genericpath import isfile
 
 from .dict import merge_dicts
 from .fileio import readjson
